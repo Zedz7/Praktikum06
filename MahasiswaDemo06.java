@@ -6,7 +6,11 @@ public class MahasiswaDemo06 {
         System.out.println("\nData mahasiswa sebelum sorting: ");
         data.tampil();
         data.bubblesort();
-        System.out.println("\nData mahasiswa setelah sorting: ");
+        System.out.println("\nData mahasiswa setelah sorting(DESC): ");
+        data.tampil();
+
+        System.out.println("Data yang sudah diurutkan menggunakan SELECTION SORT (ASC)");
+        data.selectionSort();
         data.tampil();
     }
 }
