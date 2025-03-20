@@ -19,4 +19,4 @@ public class Mahasiswa06 {
         System.out.println("Kelas   : " + kelas);
         System.out.println("IPK     : " + ipk);
     }
-}
+}   
